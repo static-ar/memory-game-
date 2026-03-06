@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Memory Matching Game</title>
+    <link rel="stylesheet" href="style1.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="script1.js"></script>
+</head>
+<body>
+    <div id="gameHeader">
+        <h2>Memory Matching Game</h2>
+        <p>Moves: <span id="moves">0</span></p>
+        <p>Time: <span id="timer">0</span> seconds</p>
+    </div>
+    <div id="gameBoard"></div>
+    <div id="winMessage">
+        <h2>You Win!</h2>
+    </div>
+    <audio id="matchSound" src="match.mp3"></audio>
+    <audio id="wrongSound" src="wrong.mp3"></audio>
+</body>
+</html>
