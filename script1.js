@@ -60,7 +60,6 @@ $(document).ready(function () {
                     firstCard = null
                     secondCard = null
                     lockBoard = false
-
                 }, 1000)
             }
         }
